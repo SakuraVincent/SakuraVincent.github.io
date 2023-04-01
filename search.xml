@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>Linux系统基础知识</title>
+      <link href="/posts/e9246142/"/>
+      <url>/posts/e9246142/</url>
+      
+        <content type="html"><![CDATA[<h1 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h1><p>Linux系统是一种自由和开放源代码的操作系统，它的特点是高度的稳定性、安全性和可靠性。作为一个博客写手，在学习Linux系统基础知识时，我们需要了解一些关键概念和基本操作，以便更好地理解和使用Linux系统。</p><h2 id="一、Linux系统的基本概念"><a href="#一、Linux系统的基本概念" class="headerlink" title="一、Linux系统的基本概念"></a>一、Linux系统的基本概念</h2><h4 id="1-内核"><a href="#1-内核" class="headerlink" title="1.内核"></a>1.内核</h4><p>内核是Linux系统的核心组件，它是操作系统的主要部分，主要负责管理系统的资源和提供各种服务。内核的主要功能包括文件系统管理、进程管理、内存管理、设备驱动程序管理等。</p><h4 id="2-发行版"><a href="#2-发行版" class="headerlink" title="2.发行版"></a>2.发行版</h4><p>Linux系统有许多不同的发行版，每个发行版都有自己的特点和优点。常见的Linux发行版包括Ubuntu、Debian、CentOS、Fedora等。</p><p>Shell<br>Shell是Linux系统的命令行解释器，它是用户与系统交互的主要方式。常见的Shell包括Bash、Zsh、Ksh等。</p><h4 id="4-文件系统"><a href="#4-文件系统" class="headerlink" title="4.文件系统"></a>4.文件系统</h4><p>Linux系统的文件系统是一种层次结构，所有的文件和目录都存储在根目录下。常见的文件系统包括ext4、NTFS、FAT32等。</p><h2 id="二、Linux系统的基本操作"><a href="#二、Linux系统的基本操作" class="headerlink" title="二、Linux系统的基本操作"></a>二、Linux系统的基本操作</h2><h4 id="1-文件和目录操作"><a href="#1-文件和目录操作" class="headerlink" title="1.文件和目录操作"></a>1.文件和目录操作</h4><p>Linux系统中，文件和目录是基本的操作对象。我们可以通过ls、cd、mkdir、rm等命令来进行相关的操作。例如：</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ls：列出当前目录下的所有文件和目录。</span><br></pre></td></tr></table></figure><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cd：切换当前目录。</span><br></pre></td></tr></table></figure><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mkdir：创建一个新的目录。</span><br></pre></td></tr></table></figure><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rm：删除文件或目录。</span><br></pre></td></tr></table></figure><h4 id="2-文件编辑"><a href="#2-文件编辑" class="headerlink" title="2.文件编辑"></a>2.文件编辑</h4><p>在Linux系统中，我们可以使用vi、nano等编辑器来编辑文件。例如，使用vi编辑器打开一个文件：</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vi filename</span><br></pre></td></tr></table></figure><p>然后按下i键进入编辑模式，进行编辑。编辑完成后，按下Esc键回到命令模式，输入:wq保存并退出。</p><h4 id="3-进程管理"><a href="#3-进程管理" class="headerlink" title="3.进程管理"></a>3.进程管理</h4><p>在Linux系统中，我们可以使用ps、kill等命令来管理进程。例如，使用ps命令查看当前运行的进程：</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ps -ef</span><br></pre></td></tr></table></figure><p>然后使用kill命令结束某个进程：</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">kill -9 PID</span><br></pre></td></tr></table></figure><p>其中PID为进程的ID号。</p><h4 id="4-软件安装"><a href="#4-软件安装" class="headerlink" title="4.软件安装"></a>4.软件安装</h4><p>在Linux系统中，我们可以使用apt、yum等命令来安装软件。例如，使用apt-get命令安装一个软件包：</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install package_name</span><br></pre></td></tr></table></figure><h2 id="三、Linux系统的实例操作"><a href="#三、Linux系统的实例操作" class="headerlink" title="三、Linux系统的实例操作"></a>三、Linux系统的实例操作</h2><p>下面我们来介绍一些Linux系统的实例操作。</p><h4 id="1-查看系统信息"><a href="#1-查看系统信息" class="headerlink" title="1.查看系统信息"></a>1.查看系统信息</h4><p>我们可以使用uname命令来查看系统信息，例如：</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">uname -a</span><br></pre></td></tr></table></figure><p>该命令可以显示系统的内核版本、处理器类型、操作系统类型等信息。</p><h4 id="2-查看磁盘空间"><a href="#2-查看磁盘空间" class="headerlink" title="2.查看磁盘空间"></a>2.查看磁盘空间</h4><p>我们可以使用df命令来查看磁盘空间使用情况，例如：</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">df -h</span><br></pre></td></tr></table></figure><p>该命令可以显示磁盘的总容量、已用容量、剩余容量等信息。</p><h4 id="3-查看进程资源占用情况"><a href="#3-查看进程资源占用情况" class="headerlink" title="3.查看进程资源占用情况"></a>3.查看进程资源占用情况</h4><p>我们可以使用top命令来查看进程资源占用情况，例如：</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">top</span><br></pre></td></tr></table></figure><p>该命令可以显示当前系统中运行的进程，以及它们所占用的CPU、内存等资源的情况。</p><h4 id="4-配置网络"><a href="#4-配置网络" class="headerlink" title="4.配置网络"></a>4.配置网络</h4><p>我们可以使用ifconfig命令来配置网络，例如：</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo ifconfig eth0 192.168.1.100 netmask 255.255.255.0</span><br></pre></td></tr></table></figure><p>该命令可以将eth0网卡的IP地址设置为192.168.1.100，子网掩码为255.255.255.0。</p><h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><p>本文介绍了Linux系统的基本概念和基本操作，希望能够帮助读者更好地理解和使用Linux系统。在使用Linux系统时，我们需要了解一些关键概念和基本操作，以便更好地应对不同的场景和需求。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 操作系统 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> linux </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>如何训练自己的AI模型</title>
       <link href="/posts/e6d843ee/"/>
       <url>/posts/e6d843ee/</url>
